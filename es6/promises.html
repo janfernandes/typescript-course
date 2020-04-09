@@ -5,7 +5,7 @@
     </head>
 <body>
 <script>
-    const response = fetch('');
+    const response = fetch('http://postman.com.br/v1/cep/01320932');
 
     response.then(data => data.json())
         .then(data => {console.log(data)})
