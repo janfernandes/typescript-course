@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Promises</title>
+    </head>
+<body>
+<script>
+    const response = fetch('');
+
+    response.then(data => data.json())
+        .then(data => {console.log(data)})
+        .catch(erro => console.log(erro));
+</script>
+</body>
+</html>
